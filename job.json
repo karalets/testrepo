@@ -1,0 +1,15 @@
+{
+    "strategy": "exhaustive",
+    "params": {
+    "batch_size": {
+        "type": "category",
+        "list": [50, 100]
+        }
+    },
+    "job_name": "test/{unique}",
+    "execute" : {
+        "file": "/home/work/testrepo/script.py",
+        "function": "main",
+        "kwargs": {
+        }
+}

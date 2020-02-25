@@ -1,0 +1,17 @@
+{
+    "constraints": {
+        "sku": "1080ti"
+    },
+    "cluster": "opusprodda1",
+    "cpus": 4,
+    "diskMB": 64000,
+    "gpus": 1,
+    "on_boot": "pip install git+https://github.com/cornellius-gp/gpytorch",
+    "priority": 1,
+    "retries": 1,
+    "ramMB": 25000,
+    "resourcePool": "/ailabs/p1/theofanis",
+    "log_dir": "/mnt/share/theofanis/logs/",
+    "user": "theofanis",
+    "job_config": {}
+}
